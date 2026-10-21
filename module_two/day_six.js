@@ -25,6 +25,16 @@ console.log(typeof null)
 // Converting values between types 
 const price = "345"
 console.log(typeof price)
+
+// Second day const vatNumber = "15";
+console.log(typeof vatNumber)
+console.log(Number(vatNumber) + 60);
+console.log(String(vatNumber) + 60); // this what we call converting the type 
+
+// Tuth falsy and equality value 
+// === we use this for equality test without converting types.This compare both type and value .
+
+// == but this uses == only 
 console.log(price + 20)
 const numericPrice = Number(price);
 console.log(numericPrice + 20)
